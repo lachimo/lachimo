@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭  I’m currently studying at FPT University<br>🤝 I’m looking for help with<br>🌱 I’m currently learning 
+🔭  I’m currently studying at FPT University<br>🤝 I’m looking for help with<br>🌱 Acquire knowledge
 
 
 ## 🌐 Socials:
