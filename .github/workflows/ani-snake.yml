@@ -9,13 +9,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Generate Snake Animation
+      # Generate Snake Animation (GIF - LIGHT)
       - name: Generate Snake Animation
-        uses: ./
+        uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}  
+          github_user_name: lachimo 
           outputs: |
-            dist/ocean.gif?color_snake=blue&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+            dist/ocean-light.gif?color_snake=#00EE76&color_dots=#ebedf0,#00868B,#00C5CD,#00E5EE,#00F5FF
+
+            
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.1.3
