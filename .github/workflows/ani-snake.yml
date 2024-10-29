@@ -15,7 +15,7 @@ jobs:
         with:
           github_user_name: lachimo 
           outputs: |
-            dist/ocean-light.gif?color_snake=#e1c4e0&color_dots=#ffe6ec,#ffc2d1,#feb3c7,#ff8fab,#fb6f92
+            dist/ocean-light.gif?color_snake=black&color_dots=#ffe6ec,#ffc2d1,#feb3c7,#ff8fab,#fb6f92
 
             
 
