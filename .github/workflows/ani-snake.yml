@@ -11,7 +11,7 @@ jobs:
     steps:
       # Generate Snake Animation
       - name: Generate Snake Animation
-        uses: Platane/snk@v3
+        uses: ./
         with:
           github_user_name: ${{ github.repository_owner }}  
           outputs: |
