@@ -9,13 +9,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Generate Snake Animation (GIF - LIGHT)
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
           github_user_name: lachimo 
           outputs: |
-            dist/ocean-light.gif?color_snake=#c8a8da&color_dots=#ffe6ec,#ffc2d1,#feb3c7,#ff8fab,#fb6f92
+            dist/ocean.gif?color_snake=#c8a8da&color_dots=#ffe6ec,#ffc2d1,#feb3c7,#ff8fab,#fb6f92
 
             
 
