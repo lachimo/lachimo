@@ -20,9 +20,7 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: lachimo 
-          outputs: dist/github-snake-light.svg
-          color_snake: "#c8a8da"
-          color_dots: '#ffe6ec,#ffc2d1,#feb3c7,#ff8fab,#fb6f92'
+          outputs: dist/github-snake-light.svg?color_snake=#c8a8da&color_dots=#ffe6ec,#ffc2d1,#feb3c7,#ff8fab,#fb6f92
 
       - name: Generate Snake Animation - Dark SVG
         uses: Platane/snk@v3
@@ -31,7 +29,6 @@ jobs:
           outputs: dist/github-snake-dark.svg
           color_snake: "#c8a8da"
           color_dots: '#ffe6ec,#ffc2d1,#feb3c7,#ff8fab,#fb6f92'
-          
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.1.3
